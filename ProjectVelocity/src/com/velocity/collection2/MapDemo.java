@@ -17,8 +17,8 @@ public class MapDemo {
 		Iterator<Integer> itr = keySet.iterator();
 		while(itr.hasNext()) {
 			int i = itr.next();
-			System.out.println(i);
-			System.out.println(map.get(i));
+			System.out.println("keys: "+i);
+			System.out.println("values:"+map.get(i));
 		}
 
 	}
