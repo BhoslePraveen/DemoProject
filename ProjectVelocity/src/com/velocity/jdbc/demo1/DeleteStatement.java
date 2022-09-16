@@ -18,8 +18,7 @@ public class DeleteStatement {
 			ps.setInt(1, 2);
 			int i = ps.executeUpdate();
 			System.out.println(i);
-			con.close();
-			ps.close();
+			
 
 		} catch (Exception e) {
 			e.printStackTrace();
